@@ -1,0 +1,128 @@
+[
+  {
+    "iterationIndex": 0,
+    "summary": {
+      "totalRequests": 1,
+      "passedRequests": 1,
+      "failedRequests": 0,
+      "totalAssertions": 0,
+      "passedAssertions": 0,
+      "failedAssertions": 0,
+      "totalTests": 0,
+      "passedTests": 0,
+      "failedTests": 0
+    },
+    "results": [
+      {
+        "test": {
+          "filename": "Get the Readings.bru"
+        },
+        "request": {
+          "method": "GET",
+          "url": "http://localhost:8080/readings/read/smart-meter-1",
+          "headers": {}
+        },
+        "response": {
+          "status": 200,
+          "statusText": "",
+          "headers": {
+            "content-type": "application/json",
+            "transfer-encoding": "chunked",
+            "date": "Wed, 09 Oct 2024 10:52:20 GMT",
+            "keep-alive": "timeout=60",
+            "connection": "keep-alive"
+          },
+          "data": [
+            {
+              "time": "2024-10-09T10:49:05.066356Z",
+              "reading": 0.4602
+            },
+            {
+              "time": "2024-10-09T10:49:15.066356Z",
+              "reading": 0.7948
+            },
+            {
+              "time": "2024-10-09T10:49:25.066356Z",
+              "reading": 1.1288
+            },
+            {
+              "time": "2024-10-09T10:49:35.066356Z",
+              "reading": 0.693
+            },
+            {
+              "time": "2024-10-09T10:49:45.066356Z",
+              "reading": 1.3067
+            },
+            {
+              "time": "2024-10-09T10:49:55.066356Z",
+              "reading": 0.2352
+            },
+            {
+              "time": "2024-10-09T10:50:05.066356Z",
+              "reading": 0.0247
+            },
+            {
+              "time": "2024-10-09T10:50:15.066356Z",
+              "reading": 1.5714
+            },
+            {
+              "time": "2024-10-09T10:50:25.066356Z",
+              "reading": 1.3678
+            },
+            {
+              "time": "2024-10-09T10:50:35.066356Z",
+              "reading": 1.8501
+            },
+            {
+              "time": "2024-10-09T10:50:45.066356Z",
+              "reading": 0.6316
+            },
+            {
+              "time": "2024-10-09T10:50:55.066356Z",
+              "reading": 1.1308
+            },
+            {
+              "time": "2024-10-09T10:51:05.066356Z",
+              "reading": 0.0577
+            },
+            {
+              "time": "2024-10-09T10:51:15.066356Z",
+              "reading": 1.4548
+            },
+            {
+              "time": "2024-10-09T10:51:25.066356Z",
+              "reading": 1.8669
+            },
+            {
+              "time": "2024-10-09T10:51:35.066356Z",
+              "reading": 1.182
+            },
+            {
+              "time": "2024-10-09T10:51:45.066356Z",
+              "reading": 0.896
+            },
+            {
+              "time": "2024-10-09T10:51:55.066356Z",
+              "reading": 0.7743
+            },
+            {
+              "time": "2024-10-09T10:52:05.066356Z",
+              "reading": 0.2552
+            },
+            {
+              "time": "2024-10-09T10:52:15.066356Z",
+              "reading": 0.7704
+            }
+          ],
+          "responseTime": 130
+        },
+        "error": null,
+        "assertionResults": [],
+        "testResults": [],
+        "runtime": 0.133265292,
+        "suitename": "Get the Readings",
+        "iterationIndex": 0
+      }
+    ]
+  }
+]
